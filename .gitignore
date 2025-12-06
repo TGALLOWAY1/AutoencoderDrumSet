@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Model files (too large for git)
+*.pt
+*.pth
+*.ckpt
+
+# Preprocessed audio data
+ml/data/preprocessed/*.wav
+ml/data/preprocessed/*.aif
+
+# Evaluation outputs
+ml/eval/reconstructions/*.wav
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db

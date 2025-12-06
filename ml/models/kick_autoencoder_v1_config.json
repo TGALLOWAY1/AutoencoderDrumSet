@@ -1,0 +1,7 @@
+{
+  "sample_rate": 44100,
+  "n_samples": 16384,
+  "latent_dim": 64,
+  "base_channels": 32,
+  "num_down_blocks": 4
+}
